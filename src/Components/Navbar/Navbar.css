@@ -113,7 +113,7 @@
 }
 .first{
     color: rgba(108, 108, 108,1);
-    font-size: 1.5rem;
+    font-size: 18px;
     font-weight: 500;
     line-height: 1.5555;
     opacity: 1;
@@ -124,7 +124,7 @@
 }
 .under{
     color: rgba(108, 108, 108,1);
-    font-size: 1.5rem;
+    font-size: 18px;
     font-weight: 400;
     line-height: 1.5555;
     opacity: 1;
