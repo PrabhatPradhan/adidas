@@ -1,0 +1,167 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 6rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+.navbar img{
+    height: 4rem;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 2rem;
+}
+.navbar ul li{
+    font-size: 1.3rem;
+    font-weight: 600;
+        
+
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    height: 2rem;
+}
+.icons input{
+    height: 2rem;
+    width: 13rem;
+}
+.product-img{
+    background-image: url('https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/Crciket_ecom_set_mast_head_2880x1280_afbf8a7023.jpg');
+
+    height: 50rem;
+}
+.product-img h1{
+    color: rgb(239, 239, 239);
+    font-size: 2.6rem;
+    padding-top: 31rem;
+    padding-left: 4rem;
+    width: 29rem;
+    
+    
+}
+.product-img p{
+    color: white;
+    font-size: 1.6rem;
+    padding-left: 4rem;
+}
+.product-img button{
+    height: 4rem;
+    width: 13rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 4rem;
+}
+.product-img-2{
+    background-image: url('https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_768,w_768/fw24_foga_em_mh_m_90ef2a3f7a.jpg');
+    height: 50rem;
+    margin-bottom: 2rem;
+}
+.product-img-2 h1{
+    color: rgb(18, 17, 17);
+    font-size: 2.6rem;
+    padding-top: 31rem;
+    padding-left: 4rem;
+   
+}
+.product-img-2 p{
+    color: rgb(0, 0, 0);
+    font-size: 1.6rem;
+    padding-left: 4rem;
+}
+.product-img-2 button{
+    height: 4rem;
+    width: 13rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 4rem;
+}
+
+
+/* Dropdown content */
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #fff;
+    color: #000;
+    width: 100vw; /* Make dropdown cover full width of screen */
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 70px; /* Aligns it below the <li> */
+    left: 0;
+    font-size: 1.7rem;
+}
+
+/* Dropdown content structure */
+.drop {
+    display: flex;
+    flex-direction: row;
+    
+    gap: 6rem;
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 1.5555;
+    opacity: 1;
+    padding: 2rem 1rem 2rem 2rem;
+}
+.first{
+    color: rgba(108, 108, 108,1);
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.5555;
+    opacity: 1;
+   
+}
+.first p:hover{
+    color: #877e50;
+}
+.under{
+    color: rgba(108, 108, 108,1);
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5555;
+    opacity: 1;
+    
+
+}
+.under p:hover{
+    color: #3b3b3a;
+}
+
+/* Show dropdown on hover */
+.nav-menu li:hover .dropdown-content {
+    display: block;
+}
+
+/* Styling for dropdown content */
+.dropdown-content p {
+    margin: 0;
+}
+
+.dropdown-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-content li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.dropdown-content li:last-child {
+    border-bottom: none;
+}
+
+.dropdown-content li:hover {
+    background-color: #f1f1f1;
+    
+    
+}
