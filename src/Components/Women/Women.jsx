@@ -1,12 +1,14 @@
 import React from 'react'
 import './Women.css'
+import { Link } from 'react-router-dom'
 export default function Women() {
   return (
     <>
     <div className="product-imgb">
       <h1>WEAR YOUR STRIPES</h1>
       <p>All New adidas Team India ODI Jersey</p>
-      <button>SHOP NOW ---\</button>
+      <button><Link to="/shopnow">SHOP NOW ---\</Link></button>
+      
     </div>
     <div className="product-img-2">
       <h1>FEAR OF GOD ATHLETICS</h1>

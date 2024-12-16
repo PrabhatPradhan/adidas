@@ -6,6 +6,7 @@ import Men from './Components/Men/Men';
 import Women from './Components/Women/Women'; // Fixed path
 import Kids from './Components/Kids/Kids';
 import Shop from './Components/Shop/Shop';
+import Running from './Components/Running/Running';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/women" element={<Women />} />
           <Route path="/kids" element={<Kids />} />
           <Route path="/shopnow" element={<Shop/>}/>
+          <Route path="/running" element={<Running/>}/>
         </Routes>
       </Router>
       <Footer />

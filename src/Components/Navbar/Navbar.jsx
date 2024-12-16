@@ -30,7 +30,7 @@ export default function Navbar() {
                                 </p>
                                 <hr/>
                                 <div className="under">
-                                    <p>Running</p>
+                                    <p><Link to="/running">Running</Link></p>
                                     <p>Walking</p>
                                     <p>Sneakers</p>
                                     <p>Slides</p>
@@ -446,8 +446,10 @@ export default function Navbar() {
         <div className="icons">
           <input type="text" placeholder="Search"  />
 
-          <span class="material-symbols-outlined">person_2</span>
-          
+          <span class="material-symbols-outlined">
+person
+</span>
+ 
         </div>
       </div>
     
